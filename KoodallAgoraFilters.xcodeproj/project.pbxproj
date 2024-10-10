@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D0FCF328F41455000C07D1 /* effects in Resources */ = {isa = PBXBuildFile; fileRef = 63D0FCF228F41455000C07D1 /* effects */; };
+		63EAB02D26DE830A00A83AD4 /* KoodallEffectSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEA626DE830A00A83AD4 /* KoodallEffectSelectorView.swift */; };
+		63EAB02E26DE830A00A83AD4 /* LICENCE.md in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEA826DE830A00A83AD4 /* LICENCE.md */; };
+		63EAB02F26DE830A00A83AD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEA926DE830A00A83AD4 /* README.md */; };
+		63EAB03026DE830A00A83AD4 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEAB26DE830A00A83AD4 /* iCarousel.m */; };
+		63EAB03126DE830A00A83AD4 /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EAAEAC26DE830A00A83AD4 /* iCarousel.h */; };
+		63EAB03226DE830A00A83AD4 /* BKoodallEffectSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEAD26DE830A00A83AD4 /* KoodallEffectSelectorView.xib */; };
+		63EAB03326DE830A00A83AD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEAE26DE830A00A83AD4 /* ViewController.swift */; };
+		63EAB03426DE830A00A83AD4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEAF26DE830A00A83AD4 /* ViewController.xib */; };
+		63EAB03526DE830A00A83AD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEB026DE830A00A83AD4 /* Assets.xcassets */; };
+		63EAB03626DE830A00A83AD4 /* EffectsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEB126DE830A00A83AD4 /* EffectsService.swift */; };
+		63EAB03726DE830A00A83AD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63EAAEB226DE830A00A83AD4 /* LaunchScreen.storyboard */; };
+		63EAB03826DE830A00A83AD4 /* KoodallEffectsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEB426DE830A00A83AD4 /* KoodallEffectsManager.swift */; };
+		63EAB03926DE830A00A83AD4 /* KoodallAgoraFilters-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EAAEB526DE830A00A83AD4 /* KoodallAgoraFilters-Bridging-Header.h */; };
+		63EAB03A26DE830A00A83AD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAAEB626DE830A00A83AD4 /* AppDelegate.swift */; };
+		63EAB1A326DE830B00A83AD4 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EAB02B26DE830A00A83AD4 /* Token.swift */; };
+		695052DDAEAFBC381D84DFAA /* Pods_BanubaAgoraFilters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92A72FE31B4831E76242823 /* Pods_BanubaAgoraFilters.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E6E85EF287460C500041909 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		637C19B426A6EEAB000C647F /* KoodallAgoraFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KoodallAgoraFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D0FCF228F41455000C07D1 /* effects */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; name = effects; path = KoodallAgoraFilters/effects; sourceTree = SOURCE_ROOT; };
+		63EAAEA626DE830A00A83AD4 /* KoodallEffectSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BKoodallEffectSelectorView.swift; sourceTree = "<group>"; };
+		63EAAEA826DE830A00A83AD4 /* LICENCE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENCE.md; sourceTree = "<group>"; };
+		63EAAEA926DE830A00A83AD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63EAAEAB26DE830A00A83AD4 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		63EAAEAC26DE830A00A83AD4 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		63EAAEAD26DE830A00A83AD4 /* BKoodallEffectSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KoodallEffectSelectorView.xib; sourceTree = "<group>"; };
+		63EAAEAE26DE830A00A83AD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63EAAEAF26DE830A00A83AD4 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		63EAAEB026DE830A00A83AD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63EAAEB126DE830A00A83AD4 /* EffectsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectsService.swift; sourceTree = "<group>"; };
+		63EAAEB326DE830A00A83AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63EAAEB426DE830A00A83AD4 /* KoodallEffectsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoodallEffectsManager.swift; sourceTree = "<group>"; };
+		63EAAEB526DE830A00A83AD4 /* KoodallAgoraFilters-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KoodallAgoraFilters-Bridging-Header.h"; sourceTree = "<group>"; };
+		63EAAEB626DE830A00A83AD4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63EAB02B26DE830A00A83AD4 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		63EAB02C26DE830A00A83AD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B00339DB29F391D7E928F7D /* Pods-BanubaAgoraFilters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaAgoraFilters.debug.xcconfig"; path = "Target Support Files/Pods-BanubaAgoraFilters/Pods-BanubaAgoraFilters.debug.xcconfig"; sourceTree = "<group>"; };
+		F38DE352DE51C7561D42F939 /* Pods-BanubaAgoraFilters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanubaAgoraFilters.release.xcconfig"; path = "Target Support Files/Pods-BanubaAgoraFilters/Pods-BanubaAgoraFilters.release.xcconfig"; sourceTree = "<group>"; };
+		F92A72FE31B4831E76242823 /* Pods_BanubaAgoraFilters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BanubaAgoraFilters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637C19B126A6EEAB000C647F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695052DDAEAFBC381D84DFAA /* Pods_BanubaAgoraFilters.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		553BCCFBBAD1C63F226780EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B00339DB29F391D7E928F7D /* Pods-BanubaAgoraFilters.debug.xcconfig */,
+				F38DE352DE51C7561D42F939 /* Pods-BanubaAgoraFilters.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		637C19AB26A6EEAB000C647F = {
+			isa = PBXGroup;
+			children = (
+				63EAAEA426DE830A00A83AD4 /* KoodallAgoraFilters */,
+				637C19B526A6EEAB000C647F /* Products */,
+				637C19CB26A6EF5C000C647F /* Frameworks */,
+				553BCCFBBAD1C63F226780EE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		637C19B526A6EEAB000C647F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				637C19B426A6EEAB000C647F /* KoodallAgoraFilters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		637C19CB26A6EF5C000C647F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92A72FE31B4831E76242823 /* Pods_BanubaAgoraFilters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63EAAEA426DE830A00A83AD4 /* KoodallAgoraFilters */ = {
+			isa = PBXGroup;
+			children = (
+				63D0FCF228F41455000C07D1 /* effects */,
+				63EAAEA526DE830A00A83AD4 /* KoodallEffectSelectorView */,
+				63EAAEAE26DE830A00A83AD4 /* ViewController.swift */,
+				63EAAEAF26DE830A00A83AD4 /* ViewController.xib */,
+				63EAAEB026DE830A00A83AD4 /* Assets.xcassets */,
+				63EAAEB126DE830A00A83AD4 /* EffectsService.swift */,
+				63EAAEB226DE830A00A83AD4 /* LaunchScreen.storyboard */,
+				63EAAEB426DE830A00A83AD4 /* KoodallEffectsManager.swift */,
+				63EAAEB526DE830A00A83AD4 /* KoodallAgoraFilters-Bridging-Header.h */,
+				63EAAEB626DE830A00A83AD4 /* AppDelegate.swift */,
+				63EAB02B26DE830A00A83AD4 /* Token.swift */,
+				63EAB02C26DE830A00A83AD4 /* Info.plist */,
+			);
+			path = KoodallAgoraFilters;
+			sourceTree = "<group>";
+		};
+		63EAAEA526DE830A00A83AD4 /* KoodallEffectSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				63EAAEA626DE830A00A83AD4 /* KoodallEffectSelectorView.swift */,
+				63EAAEA726DE830A00A83AD4 /* iCarousel */,
+				63EAAEAD26DE830A00A83AD4 /* KoodallEffectSelectorView.xib */,
+			);
+			path = KoodallEffectSelectorView;
+			sourceTree = "<group>";
+		};
+		63EAAEA726DE830A00A83AD4 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				63EAAEA826DE830A00A83AD4 /* LICENCE.md */,
+				63EAAEA926DE830A00A83AD4 /* README.md */,
+				63EAAEAA26DE830A00A83AD4 /* iCarousel */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		63EAAEAA26DE830A00A83AD4 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				63EAAEAB26DE830A00A83AD4 /* iCarousel.m */,
+				63EAAEAC26DE830A00A83AD4 /* iCarousel.h */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		637C1A0F26A82E2E000C647F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EAB03126DE830A00A83AD4 /* iCarousel.h in Headers */,
+				63EAB03926DE830A00A83AD4 /* BanubaAgoraFilters-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		637C19B326A6EEAB000C647F /* KoodallAgoraFilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637C19C826A6EEAE000C647F /* Build configuration list for PBXNativeTarget "KoodallAgoraFilters" */;
+			buildPhases = (
+				3FABC269F6AC828CF2FB164D /* [CP] Check Pods Manifest.lock */,
+				637C1A0F26A82E2E000C647F /* Headers */,
+				637C19B026A6EEAB000C647F /* Sources */,
+				637C19B126A6EEAB000C647F /* Frameworks */,
+				637C19B226A6EEAB000C647F /* Resources */,
+				8E6E85EF287460C500041909 /* Embed Frameworks */,
+				6793A85EBB13D459E2AF6523 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KoodallAgoraFilters;
+			productName = KoodallAgoraFilters;
+			productReference = 637C19B426A6EEAB000C647F /* KoodallAgoraFilters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637C19AC26A6EEAB000C647F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					637C19B326A6EEAB000C647F = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 637C19AF26A6EEAB000C647F /* Build configuration list for PBXProject "KoodallAgoraFilters" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637C19AB26A6EEAB000C647F;
+			productRefGroup = 637C19B526A6EEAB000C647F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637C19B326A6EEAB000C647F /* KoodallAgoraFilters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637C19B226A6EEAB000C647F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EAB03226DE830A00A83AD4 /* KoodallEffectSelectorView.xib in Resources */,
+				63D0FCF328F41455000C07D1 /* effects in Resources */,
+				63EAB02F26DE830A00A83AD4 /* README.md in Resources */,
+				63EAB03426DE830A00A83AD4 /* ViewController.xib in Resources */,
+				63EAB03726DE830A00A83AD4 /* LaunchScreen.storyboard in Resources */,
+				63EAB02E26DE830A00A83AD4 /* LICENCE.md in Resources */,
+				63EAB03526DE830A00A83AD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FABC269F6AC828CF2FB164D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BanubaAgoraFilters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6793A85EBB13D459E2AF6523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaAgoraFilters/Pods-BanubaAgoraFilters-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BanubaAgoraFilters/Pods-BanubaAgoraFilters-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BanubaAgoraFilters/Pods-BanubaAgoraFilters-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637C19B026A6EEAB000C647F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63EAB03A26DE830A00A83AD4 /* AppDelegate.swift in Sources */,
+				63EAB1A326DE830B00A83AD4 /* Token.swift in Sources */,
+				63EAB03626DE830A00A83AD4 /* EffectsService.swift in Sources */,
+				63EAB03326DE830A00A83AD4 /* ViewController.swift in Sources */,
+				63EAB02D26DE830A00A83AD4 /* KoodallEffectSelectorView.swift in Sources */,
+				63EAB03026DE830A00A83AD4 /* iCarousel.m in Sources */,
+				63EAB03826DE830A00A83AD4 /* KoodallEffectsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63EAAEB226DE830A00A83AD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63EAAEB326DE830A00A83AD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		637C19C626A6EEAE000C647F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637C19C726A6EEAE000C647F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637C19C926A6EEAE000C647F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B00339DB29F391D7E928F7D /* Pods-BanubaAgoraFilters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = KoodallAgoraFilters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.BanubaAgoraFilters.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KoodallAgoraFilters/KoodallAgoraFilters-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		637C19CA26A6EEAE000C647F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38DE352DE51C7561D42F939 /* Pods-BanubaAgoraFilters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = KoodallAgoraFilters/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banuba.BanubaAgoraFilters.sample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KoodallAgoraFilters/KoodallAgoraFilters-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637C19AF26A6EEAB000C647F /* Build configuration list for PBXProject "KoodallAgoraFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C19C626A6EEAE000C647F /* Debug */,
+				637C19C726A6EEAE000C647F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637C19C826A6EEAE000C647F /* Build configuration list for PBXNativeTarget "KoodallAgoraFilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637C19C926A6EEAE000C647F /* Debug */,
+				637C19CA26A6EEAE000C647F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637C19AC26A6EEAB000C647F /* Project object */;
+}
